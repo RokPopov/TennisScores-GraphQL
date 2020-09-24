@@ -7,6 +7,7 @@ import { Box } from "@material-ui/core";
 import "./App.css";
 
 import MatchList from "./components/MatchList";
+import AddClub from "./components/AddClub";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -20,6 +21,7 @@ function App() {
 
   return (
     <Container maxWidth="sm" className={classes.root}>
+      <AddClub />
       <CssBaseline />
       <Box>
         <MatchList />
